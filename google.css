@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1509788_honi9n2nqp9.eot?t=1573717495553'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1509788_honi9n2nqp9.eot?t=1573717495553#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAMcAAsAAAAABvQAAALOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqBXIFtATYCJAMMCwgABCAFhG0HNhszBsgekiQBEaIUgCKBAGYcD/+/37d97rnvjUpTS7Omiq0+STSKQckkCNFCIxRKJhSPLPL/aT/3/v+o9sNs1hDxmd/u/kTv36yhjWQeIiWxBG2SIDQyjeUzgPb/f69q5vGxcF6guPyXOTaFcgIYDlCA9sbRQdaCVNCrMLzWpTro+wR6TRslHK9s6aFGxZYF4iUge6CmEFZVOdcttA17q/gAje7yTvwE3ke/H39hK7opmsTWntwt+2DuB/y4k47KR64DHEQIONwgsQlU4rYxfU4SMk3Sq67oLm1VoSwVK5eJxJay5f/wKIJosep+sEozhR88caa5g/SpOxK0PqNiB3jF9ONTPy3HBvv761sw9JqEYtFYXygYSiVTfT5vzBW780tp9aPQVT7mcTNqQhaykIPyWKzQYwwme3TINqbX/7vjxyKtF29CQi9YUimLrxAkDA69kKg23F3ur6x0DnRCtx83wEvoOnM5CYobCQFlbPFGvB5zs8HFhwdRETlVcony+CBiuMjp6OhItbeDG6BzDuZylJWv0tj//htfdeNmV/PU/+6+Cr7/W/5DsKPCsErQrTBY8nclA3uqJWOWrIbYEzveNHenzgKQ4tOJ+Uf9TNdPvEE2dJvIoOgyBanbIr6SN6HRZxta3fag14bVw33GMJKoPVh3TiAMe4di0DdIw77wlfwNjUm/0BqOhF6n0X5mn+V4rFtkxMOJD3mzKIBjUeraeF1ce0DkZNjD8rKIYyRMCcSQVqUp51ZJlLAlNigpWcc5RZTFImiFPEbC4RiKs1iQYK7ycx6fUKtp0zepcCwCdY4whAdH+CBeWUgAFhNFg8FcXeXnDxCypDAP1tHVFDYiGEVgdERLRTMAv6qODup6lGcUKTIdjqMQiomJQFaIkwjzdAwSb54VRGCcin9CMm6CmvajQ9Wq7bWR/zsEvdh1GSUyqnwN4CqFeBj2AwAAAA==') format('woff2'),
+  url('//at.alicdn.com/t/font_1509788_honi9n2nqp9.woff?t=1573717495553') format('woff'),
+  url('//at.alicdn.com/t/font_1509788_honi9n2nqp9.ttf?t=1573717495553') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1509788_honi9n2nqp9.svg?t=1573717495553#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mic:before {
+  content: "\e666";
+}
+
+.icon-search:before {
+  content: "\e600";
+}
+
+
+#1 {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  width: 400px;
+  top: 60px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+}
+
+.logo img {
+  width: 400px;
+}
+
+.search {
+  position: absolute;
+  width: 500px;
+  height: 35px;
+  top: 230px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+}
+
+.search input {
+  width: 100%;
+  height: 100%;
+  padding: 0 40px;
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  font-size: 20px;
+}
+
+.icon-search {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%)
+}
+
+.icon-mic {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(50%, -50%)
+}
+
+input:focus {
+  outline: #ffffff;
+}
+
+input:hover {
+  box-shadow: 0 0 6px 0 #ccc;
+}
+
+.icon {
+  margin: 300px 0 0 0;
+}
+
+.button {
+  position: absolute;
+  top: 300px;
+  width: 500px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  font-size: 13px;
+  text-align: center;
+}
+
+.button span {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px 0;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background: #eee;
+  color: #666;
+}
+
+.lang {
+  position: absolute;
+  top: 350px;
+  width: 127px;
+  font-size: 13px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  color: #666;
